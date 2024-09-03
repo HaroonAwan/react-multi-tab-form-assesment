@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    a {
+        @apply text-[#0020cb];
+    }
+
+    label {
+        @apply text-nowrap;
+    }
+}
+
+.MuiOutlinedInput-notchedOutline{
+    border: none !important;
+}
+
+.MuiStack-root{
+    padding-top: 0 !important;
+}
+
+.MuiTextField-root {
+    min-width: unset !important;
+    border: 1px solid #8a8a8a !important;
+    border-radius: 8px !important;
+}
+
+.MuiInputBase-input {
+    padding: 10px !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+}
